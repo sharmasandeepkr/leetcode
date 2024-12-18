@@ -39,10 +39,11 @@ func maxCount(banned []int, n int, maxSum int) int {
 	}
 	for i := 1; i < len(buffer); i++ {
 		newBufferWidth := i
-		newBuffer := []int{}
 		newBufferSum := 0
 		for sidx := 0; sidx < len(buffer)-i; sidx++ {
-
+			for j:=0; j< newBufferWidth; j++{
+				newBufferSum+= 
+			}
 		}
 	}
 	return 0
